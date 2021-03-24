@@ -9,7 +9,7 @@ import (
 func main() {
 	var line, s string
 	for i, arg := range os.Args[1:] {
-		line = fmt.Sprint(i, " ", arg, "\n")
+		line = fmt.Sprint(i, " ", arg, " GIT\n")
 		s += line
 	}
 	fmt.Println(s)
